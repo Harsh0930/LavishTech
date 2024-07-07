@@ -12,7 +12,6 @@
     background-attachment: fixed;
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.437);
-    height: 500px;
  }
 
  .brand_heading {
@@ -25,4 +24,15 @@
     font-family: manrope;
     font-size: .8em;
     color: whitesmoke;
+ }
+ .navigation_list{
+   justify-content:space-around;
+ }
+ .navigation_list_links{
+   font-family: manrope;
+   color: white;
+ }
+ .navigation_list_links:hover{
+   color: gray;
+   transition: .2s ease-in;
  }
