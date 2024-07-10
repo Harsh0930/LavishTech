@@ -42,7 +42,8 @@ hr {
   font-family: manrope;
   color: white;
 }
-.amazing {
+.lavishtech,
+.partner,.service {
   color: #5e45f8;
 }
 .description_para {
@@ -56,3 +57,30 @@ hr {
   font-weight: 500;
   color: white;
 }
+.section_two{
+  background-color: black;
+}
+.our_service_heading{
+  font-family: manrope;
+  color: white;
+}
+.service_list_link{
+  color: white;
+  font-family: manrope;
+  font-size: 1em;
+}
+.service_list_link:hover{
+transition: .2s ease-in;
+color: white;
+}
+.service_item_list{
+  border-color:white !important;
+  border-radius: 10px;
+  width: auto;
+}
+.service_item_list:hover{
+  transform: scale(1.1);
+  transition: .25s ease-in-out;
+  background-color: #5e45f8;
+}
+
