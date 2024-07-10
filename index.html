@@ -21,9 +21,9 @@
   </head>
   <body>
     <!-- Main Section  -->
-    <main class="container-fluid px-0">
+    <main class="container-fluid px-0 mx-0">
       <!-- Section One -->
-      <section class="section_one row py-2">
+      <section class="section_one row py-2 mx-0">
         <!-- Heading  -->
         <section class="brand_heading_section">
           <h1
@@ -101,18 +101,20 @@
           </div>
         </section>
       </section>
-
       <!-- Section Two Service  -->
       <section class="section_two py-4 px-0">
-        <div class="our_services_container my-3 row px-4">
-          <h3 class="our_service_heading text-center display-4 py-3 px-0">
+        <div
+          class="our_services_container my-3 row mx-0 px-0 d-flex align-items-center justify-content-center"
+        >
+          <h3 class="our_service_heading text-center display-4 py-3">
             Our <span class="service">Services</span>
           </h3>
           <section
-            class="services_list col-sm-12 col-md-3 col-lg-3 justify-content-end d-flex"
+            class="services_list col-sm-12 col-md-3 col-lg-3 justify-content-center d-flex px-0"
           >
             <ul class="service_list text-center" type="none">
               <li
+                id="website_list"
                 class="service_item_list my-4 p-3 border border-2 d-flex align-items-center"
               >
                 <img
@@ -121,11 +123,15 @@
                   height="30"
                   width="30"
                   class="me-2"
-                /><a href="#" class="service_list_link text-decoration-none"
-                  >Website Development</a
+                />
+                <p
+                  class="m-0 btn btn-outline-none service_list_link text-decoration-none"
                 >
+                  Website Development
+                </p>
               </li>
               <li
+                id="digital_marketing_list"
                 class="service_item_list my-4 p-3 border border-2 d-flex align-items-center"
               >
                 <img
@@ -134,9 +140,10 @@
                   height="30"
                   width="30"
                   class="me-2"
-                /><a href="#" class="service_list_link text-decoration-none"
-                  >Digital Marketing</a
-                >
+                />
+                <p class="m-0 service_list_link text-decoration-none">
+                  Digital Marketing
+                </p>
               </li>
               <li
                 class="service_item_list my-4 p-3 border border-2 d-flex align-items-center"
@@ -166,11 +173,64 @@
               </li>
             </ul>
           </section>
+          <!-- WEBSITE  -->
           <section
-            class="services_description col-sm-12 col-md-9 col-lg-9 justify-content-center d-flex"
-          ></section>
+            class="services_description col-sm-12 col-md-9 col-lg-9 p-5"
+            id="col_one"
+          >
+            <h3 class="website_heading py-1">
+              Website Development:
+              <em class="web">Crafting Unique Digital Experiences</em>
+            </h3>
+            <p class="website_description">
+              Your website is often the first point of contact between your
+              business and potential customers. At Lavish Tech Agency, <br />
+              we specialize in creating custom websites that are not only
+              visually appealing but also highly functional. <br />
+              Our services include:
+            </p>
+            <ul class="websites_list text-light" type="square">
+              <li class="website_item_list">
+                <h4 class="website_list_heading">
+                  <b class="website_bullet">Custom Website Design:</b> Tailored
+                  to reflect your brand’s unique identity.
+                </h4>
+              </li>
+              <li class="website_item_list">
+                <h4 class="website_list_heading">
+                  <b class="website_bullet">E-commerce Solutions:</b> Seamless
+                  and secure online shopping experiences.
+                </h4>
+              </li>
+              <li class="website_item_list">
+                <h4 class="website_list_heading">
+                  <b class="website_bullet">CMS Development:</b> Easy-to-manage
+                  content systems for your convenience.
+                </h4>
+              </li>
+              <li class="website_item_list">
+                <h4 class="website_list_heading">
+                  <b class="website_bullet">Website Maintenance:</b> Keeping
+                  your site updated and running smoothly.
+                </h4>
+              </li>
+              <li class="website_item_list">
+                <h4 class="website_list_heading">
+                  <b class="website_bullet">Responsive Design:</b> Ensuring your
+                  site looks great on any device.
+                </h4>
+              </li>
+            </ul>
+            <p class="website_description">
+              We believe that a well-designed website is a cornerstone of your
+              digital presence and a powerful tool for engaging your <br />
+              audience and driving conversions.
+            </p>
+          </section>
         </div>
       </section>
     </main>
+
+    <script src="js/home.js"></script>
   </body>
 </html>

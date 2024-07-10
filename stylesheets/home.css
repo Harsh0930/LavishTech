@@ -84,3 +84,28 @@ hr {
   transition: 0.25s ease-in-out;
   background-color: #5e45f8;
 }
+.website_heading{
+  color: #5e45f8;
+  font-family: manrope;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.web{
+  font-weight: 200;
+  color: white;
+}
+.website_description{
+  font-family: manrope;
+  color: whitesmoke;
+  line-height: 2em;
+  font-size: 1rem;
+}
+.website_list_heading{
+font-family: manrope;
+color: whitesmoke;
+font-size: 1em;
+line-height: 2em;
+}
+.website_bullet{
+  color: #5e45f8;
+}
