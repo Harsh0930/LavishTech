@@ -1,10 +1,10 @@
- @font-face{
-    font-family: manrope;
-    src: url('/fonts/Manrope-VariableFont_wght.ttf');
- }
+@font-face {
+  font-family: manrope;
+  src: url("/fonts/Manrope-VariableFont_wght.ttf");
+}
 
- .section_one{
-  background-image: url('/images/bg.jpg');
+.section_one {
+  background-image: url("/images/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,47 +12,47 @@
   background-attachment: scroll;
   height: auto;
   background-blend-mode: multiply;
- }
- .brand_heading{
+}
+.brand_heading {
   font-family: manrope;
-  letter-spacing: .8em;
+  letter-spacing: 0.8em;
   color: white;
- }
+}
 
- .nav_list{
-  justify-content:space-evenly;
- }
- .nav_links{
+.nav_list {
+  justify-content: space-evenly;
+}
+.nav_links {
   font-family: manrope;
   color: white;
- }
- .nav_links:hover{
-  color:#5E45F8;
-  transition: .2s ease-in;
- }
- hr{
-   color: #5E45F8;
-   padding: 1px;
- }
- .brand_tagline{
+}
+.nav_links:hover {
+  color: #5e45f8;
+  transition: 0.2s ease-in;
+}
+hr {
+  color: #5e45f8;
+  padding: 1px;
+}
+.brand_tagline {
   color: whitesmoke;
- }
- .description_text{
-   font-weight: 300;
-   font-family: manrope;
-   color: white;
- }
- .amazing{
-   color: #5E45F8;
- }
- .description_para{
-   font-family: manrope;
-   color: rgba(245, 245, 245, 0.734);
-   line-height: 2em;
- }
- .let_talk_btn{
-   background-color: #5E45F8;
-   font-family: manrope;
-   font-weight: 500;
-   color: white;
- }
+}
+.description_text {
+  font-weight: 300;
+  font-family: manrope;
+  color: white;
+}
+.amazing {
+  color: #5e45f8;
+}
+.description_para {
+  font-family: manrope;
+  color: rgba(245, 245, 245, 0.734);
+  line-height: 2em;
+}
+.let_talk_btn {
+  background-color: #5e45f8;
+  font-family: manrope;
+  font-weight: 500;
+  color: white;
+}
