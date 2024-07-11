@@ -49,7 +49,7 @@ hr {
 }
 .description_para {
   font-family: manrope;
-  color: rgba(245, 245, 245, 0.734);
+  color: whitesmoke;
   line-height: 2em;
 }
 .let_talk_btn {
@@ -84,28 +84,52 @@ hr {
   transition: 0.25s ease-in-out;
   background-color: #5e45f8;
 }
-.website_heading{
+.website_heading {
   color: #5e45f8;
   font-family: manrope;
   font-weight: 600;
   font-size: 1.5em;
 }
-.web{
+.web {
   font-weight: 200;
   color: white;
 }
-.website_description{
+.website_description {
   font-family: manrope;
   color: whitesmoke;
   line-height: 2em;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
-.website_list_heading{
-font-family: manrope;
-color: whitesmoke;
-font-size: 1em;
-line-height: 2em;
+.website_list_heading {
+  font-family: manrope;
+  color: whitesmoke;
+  font-size: 1em;
+  line-height: 2em;
 }
-.website_bullet{
+.website_bullet {
   color: #5e45f8;
+}
+#website,#digital_marketing,#graphic_designing{
+  flex-direction: column;
+  height: 500px;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+}
+.why_section{
+  background-color: black;
+}
+.why_lavishTech{
+  font-family: manrope;
+  color: #5e45f8;
+}
+.why_heading{
+  font-family: manrope;
+  color: white;
+}
+.why_text{
+  font-family: manrope;
+  color:whitesmoke;
+  line-height: 2em;
+  font-size: 1em;
 }
