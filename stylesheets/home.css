@@ -54,7 +54,7 @@ hr {
 .lavishtech,
 .partner,
 .service,
-.aboutus {
+.aboutus,.works {
   color: #5e45f8;
   font-family: neue;
 }
@@ -75,10 +75,10 @@ hr {
 .why_section,
 .ourwork_section {
   background-color: #141414;
-  height: 600px;
+  height: auto;
 }
 .our_service_heading,
-.about_heading {
+.about_heading,.our_work {
   font-family: neue;
   color: white;
 }
@@ -150,6 +150,13 @@ hr {
   line-height: 2em;
   font-size: 1em;
 }
+.work_one,.work_two,.work_three,.work_four,.work_five,.work_six,.work_seven{
+  border-radius: 30px;
+}
+
+
+
+
 
 .footer_line {
   padding: 2px;
