@@ -288,7 +288,7 @@ hr {
 .footer_social_links:hover {
   color: #5e45f8;
   text-decoration: underline;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }
 .fa-instagram,
 .fa-twitter,
