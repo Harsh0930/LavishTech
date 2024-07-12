@@ -2,6 +2,14 @@
   font-family: manrope;
   src: url("/fonts/Manrope-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: gallerymodern;
+  src: url("/fonts/GalleryModern.otf");
+}
+@font-face {
+  font-family: neue;
+  src: url("/fonts/NeueMachina-Regular.otf");
+}
 
 .section_one {
   background-image: url("/images/bg.jpg");
@@ -14,7 +22,7 @@
   background-blend-mode: multiply;
 }
 .brand_heading {
-  font-family: manrope;
+  font-family: gallerymodern;
   letter-spacing: 0.8em;
   color: white;
 }
@@ -23,7 +31,7 @@
   justify-content: space-evenly;
 }
 .nav_links {
-  font-family: manrope;
+  font-family: neue;
   color: white;
 }
 .nav_links:hover {
@@ -36,6 +44,7 @@ hr {
 }
 .brand_tagline {
   color: whitesmoke;
+  font-family: neue;
 }
 .description_text {
   font-weight: 300;
@@ -44,30 +53,38 @@ hr {
 }
 .lavishtech,
 .partner,
-.service {
+.service,
+.aboutus {
   color: #5e45f8;
+  font-family: neue;
 }
 .description_para {
-  font-family: manrope;
+  font-family: neue;
   color: whitesmoke;
   line-height: 2em;
 }
-.let_talk_btn {
+.let_talk_btn,
+.aboutus_btn {
   background-color: #5e45f8;
-  font-family: manrope;
+  font-family: neue;
   font-weight: 500;
   color: white;
 }
-.section_two {
-  background-color: black;
+.section_two,
+.aboutus_section,
+.why_section,
+.ourwork_section {
+  background-color: #141414;
+  height: 600px;
 }
-.our_service_heading {
-  font-family: manrope;
+.our_service_heading,
+.about_heading {
+  font-family: neue;
   color: white;
 }
 .service_list_link {
   color: white;
-  font-family: manrope;
+  font-family: neue;
   font-size: 1em;
 }
 .service_list_link:hover {
@@ -86,7 +103,7 @@ hr {
 }
 .website_heading {
   color: #5e45f8;
-  font-family: manrope;
+  font-family: neue;
   font-weight: 600;
   font-size: 1.5em;
 }
@@ -95,13 +112,13 @@ hr {
   color: white;
 }
 .website_description {
-  font-family: manrope;
+  font-family: neue;
   color: whitesmoke;
   line-height: 2em;
   font-size: 1.1rem;
 }
 .website_list_heading {
-  font-family: manrope;
+  font-family: neue;
   color: whitesmoke;
   font-size: 1em;
   line-height: 2em;
@@ -109,27 +126,63 @@ hr {
 .website_bullet {
   color: #5e45f8;
 }
-#website,#digital_marketing,#graphic_designing{
+#website,
+#digital_marketing,
+#graphic_designing {
   flex-direction: column;
   height: 500px;
   padding: 10px;
   justify-content: center;
   align-content: center;
 }
-.why_section{
-  background-color: black;
-}
-.why_lavishTech{
-  font-family: manrope;
+.why_lavishTech {
+  font-family: neue;
   color: #5e45f8;
 }
-.why_heading{
-  font-family: manrope;
+.why_heading {
+  font-family: neue;
   color: white;
 }
-.why_text{
-  font-family: manrope;
-  color:whitesmoke;
+.why_text,
+.aboutus_text {
+  font-family: neue;
+  color: whitesmoke;
   line-height: 2em;
   font-size: 1em;
+}
+
+.footer_line {
+  padding: 2px;
+  background-color: #5e45f8;
+}
+.footer_section {
+  background-color: #141414;
+}
+.footer_logo {
+  font-family: galleymodern;
+  font-weight: 800;
+  color: white;
+}
+.footer_tagline {
+  font-family: neue;
+  color: #5e45f8;
+}
+.footer_services_heading,
+.footer_useful_links_heading {
+  font-family: neue;
+  color: #5e45f8;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.footer_service_links,
+.footer_useful_links {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: neue;
+}
+.footer_service_links:hover,
+.footer_useful_links:hover {
+  color: #5e45f8;
+  text-decoration: underline;
 }
