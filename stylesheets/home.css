@@ -20,6 +20,7 @@
   background-attachment: scroll;
   height: auto;
   background-blend-mode: multiply;
+  max-height: 850px;
 }
 .brand_heading {
   font-family: gallerymodern;
@@ -51,6 +52,7 @@ hr {
   font-family: manrope;
   color: white;
 }
+
 .lavishtech,
 .partner,
 .service,
@@ -71,12 +73,17 @@ hr {
   font-weight: 500;
   color: white;
 }
-.section_two,
-.aboutus_section,
-.why_section,
+.aboutus_section {
+  background-color: #272727;
+}
 .ourwork_section {
+  background-color: #272727;
+}
+.section_two {
   background-color: #141414;
-  height: auto;
+}
+.why_section {
+  background-color: #272727;
 }
 .our_service_heading,
 .about_heading,
@@ -170,7 +177,7 @@ hr {
   -webkit-backdrop-filter: blur(7.6px);
   border: 1px solid rgba(255, 255, 255, 0.35);
   width: 36%;
-  top: 380%;
+  top: 398%;
 }
 .link_box2 {
   background: rgba(255, 255, 255, 0.31);
@@ -180,7 +187,7 @@ hr {
   -webkit-backdrop-filter: blur(7.6px);
   border: 1px solid rgba(255, 255, 255, 0.35);
   width: 52%;
-  top: 380%;
+  top: 398%;
 }
 .link_box3 {
   background: rgba(255, 255, 255, 0.31);
@@ -190,7 +197,7 @@ hr {
   -webkit-backdrop-filter: blur(7.6px);
   border: 1px solid rgba(255, 255, 255, 0.35);
   width: 28%;
-  top: 425%;
+  top: 442%;
   left: 5%;
 }
 .link_box4 {
@@ -201,7 +208,7 @@ hr {
   -webkit-backdrop-filter: blur(7.6px);
   border: 1px solid rgba(255, 255, 255, 0.35);
   width: 28%;
-  top: 425%;
+  top: 442%;
   left: 36.7%;
 }
 .link_box5 {
@@ -212,7 +219,7 @@ hr {
   -webkit-backdrop-filter: blur(7.6px);
   border: 1px solid rgba(255, 255, 255, 0.35);
   width: 28%;
-  top: 425%;
+  top: 442%;
   left: 68.5%;
 }
 .link_box6 {
@@ -223,7 +230,7 @@ hr {
   -webkit-backdrop-filter: blur(7.6px);
   border: 1px solid rgba(255, 255, 255, 0.35);
   width: 44%;
-  top: 483.5%;
+  top: 501%;
   left: 5%;
 }
 /* .link_box7 {
@@ -249,6 +256,42 @@ hr {
 .fa-arrow-circle-right:hover {
   transform: scale(1.3);
   transition: 0.2s;
+}
+.expertise_section {
+  background-color: #141414;
+}
+.expertise_heading {
+  font-family: neue;
+  color: white;
+}
+.expert {
+  color: #5e45f8;
+}
+.card_col {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.card {
+  background-color: #272727;
+  border-radius: 15px;
+}
+.card-title {
+  color: white;
+  font-family: neue;
+}
+.card-text {
+  color: grey;
+  font-family: neue;
+  font-size: 0.9em;
+}
+.card-img-top {
+  height: 240px;
+  border-radius: 15px;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease-in-out;
 }
 
 .footer_line {
